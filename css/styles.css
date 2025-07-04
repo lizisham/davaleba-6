@@ -34,4 +34,58 @@ nav p{
     font-size: 19px;
     color: #FFFFFF;
 }
+article{
+    justify-content: space-between;
+    margin-top: 84px;
+    margin-bottom: 140px;
+    width:100%;
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+ .left-side{
+   height: 213px;
+   width: 235px;
+}
+ .left-side h1{
+    font-size: 17px;
+    color: #636060;
+    margin-bottom: 9px;
+ }
+ .left-side h2{
+    font-size: 28px;
+    color:#010101;
+    margin-bottom: 37px;
+ }
+ .left-side p{
+   font-size: 20px;
+    color:#636060;
+ }
+ .right-side{
+    display: flex;
+   flex-wrap: wrap;
+   width: 924px ;
+   height: 680px;
+   gap: 33px;
 
+ }
+ .right-side div{
+    width:286px;
+    height: 312px;
+
+ }
+ .right-side h1{
+   font-size: 19px;
+   color: #343232;
+   margin-bottom: 9px;  
+ }
+ .right-side p{
+    font-size: 18px;
+    color:#636060; 
+
+ }
+ .right-side img{
+    width: 286px;
+    height: 195px;
+    margin-bottom: 23px;
+ }
